@@ -19,7 +19,7 @@ In total, 26 models are fitted (4 + 6 + 7 + 9). The script does not perform cros
 
 ```
 .
-├── 33853975_Project.py        # main script
+├── Project.py        # main script
 ├── Tester.py                  # independent cross-check of the main script's results
 ├── data/
 │   └── Concrete_Data.csv      # input dataset (you must provide this)

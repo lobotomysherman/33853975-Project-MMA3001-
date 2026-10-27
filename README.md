@@ -19,7 +19,7 @@ In total, 26 models are fitted (4 + 6 + 7 + 9). The script does not perform cros
 
 ```
 .
-├── MMA3001_Project_33853975.py        # main script
+├── MMA3001_33853975_Project.py        # main script
 ├── Tester.py                  # independent cross-check of the main script's results
 ├── data/
 │   └── Concrete_Data.csv      # input dataset (you must provide this)
@@ -84,7 +84,7 @@ No rows are dropped and no values are imputed. If validation fails, the script e
 From the project root:
 
 ```bash
-python MMA3001_Project_33853975..py
+python MMA3001_33853975_Project.py
 ```
 
 The script has no command-line arguments, and the paths and hyperparameters are set in the code. It runs top to bottom on execution, so importing it as a module will also trigger a full run.
